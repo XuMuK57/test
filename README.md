@@ -56,6 +56,5 @@ Console.WriteLine(taskList);
 taskList.Tasks[0] = taskList.Tasks[0].CopyWithDoneStatus("выполнено"); Console.WriteLine(taskList);
 // Удаляю задачу и вывожу список taskList = taskList.RemoveTask(1); Console.WriteLine(taskList);
 } }
-Вывод в терминал:
-![скрин экрана](https://github.com/MakeevaD/terminal/issues/1#issue-1933072026)
+
 
